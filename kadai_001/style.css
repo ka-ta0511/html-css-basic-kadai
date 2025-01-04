@@ -1,0 +1,127 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: black;
+  background-color: #ffffff;
+  font-family: "Noto Sans JP", serif;
+}
+
+p{
+  margin: 0;
+}
+
+.header-inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+
+.home{
+  font-size: 34px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid 1px black;
+  padding: 0px 20px;
+  margin: 0 0 0 20px;
+}
+
+.menu{
+  display: flex;
+}
+nav li{
+  margin: 0 20px;
+  list-style: none;
+}
+
+nav a{
+  font-size: 34px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mainpic{
+  max-width: 100%
+}
+
+#about{
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-inner{
+  display: flex;
+}
+
+.circle{
+ margin-left: 300px;
+ border-radius: 150px;
+}
+
+.content{
+  margin:40px 0 0 150px;
+}
+
+.content p{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#works{
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.works-inner{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.item{
+  margin: 0 10px;
+  padding-bottom: 60px;
+}
+
+.item p{
+  font-size: 18px;
+}
+
+footer p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width:767px) {
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    padding: 30px 0 20px;
+    font-size: 28px;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    font-size: 21px;
+  }
+
+  .item {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+}
